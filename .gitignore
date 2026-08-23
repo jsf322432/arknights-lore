@@ -1,0 +1,21 @@
+# ===== 剧情原文（不入库，按需下载）=====
+# 如需原文，运行 node tools/fetch-story.mjs；全量打包见仓库 Releases 附件。
+raw/
+dist/
+
+# ===== Node =====
+node_modules/
+*.log
+npm-debug.log*
+
+# ===== 临时/系统 =====
+.DS_Store
+Thumbs.db
+*.tmp
+__tmp_*.mjs
+
+# ===== 编辑器 =====
+.vscode/
+.idea/
+*.swp
+*~
